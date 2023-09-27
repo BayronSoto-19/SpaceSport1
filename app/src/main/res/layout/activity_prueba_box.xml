@@ -69,25 +69,25 @@
                     android:id="@+id/checkBox10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Mohamed Ali" />
 
                 <CheckBox
                     android:id="@+id/checkBox9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="ken norton" />
 
                 <CheckBox
                     android:id="@+id/checkBox5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="roky balboa" />
 
                 <CheckBox
                     android:id="@+id/checkBox6"
-                    android:layout_width="match_parent"
+                    android:layout_width="272dp"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="joe frazier" />
 
             </LinearLayout>
 
