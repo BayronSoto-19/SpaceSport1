@@ -10,6 +10,8 @@ import android.widget.Button;
 public class menuPrincipal extends AppCompatActivity {
 
     Button boton2;
+    Button boton3;
+    Button boton4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,28 @@ public class menuPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), BoxeoPrincipal.class);
+                startActivity(intent);
+            }
+        });
+
+        boton3 = findViewById(R.id.BotonTaekwondo);
+
+
+        boton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), TaekwondoPrincipal.class);
+                startActivity(intent);
+            }
+        });
+
+        boton4 = findViewById(R.id.BotonCapoheira);
+
+
+        boton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CapoheiraPrincipal.class);
                 startActivity(intent);
             }
         });

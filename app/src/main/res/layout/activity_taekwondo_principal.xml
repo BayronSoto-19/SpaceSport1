@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".TaekwondoPrincipal">
 
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="252dp"
+        android:layout_height="39dp"
+        android:text="¿Qué desea apender?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 </androidx.constraintlayout.widget.ConstraintLayout>

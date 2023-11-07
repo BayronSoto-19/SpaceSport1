@@ -16,6 +16,8 @@ public class BoxeoPrincipal extends AppCompatActivity {
     Button boton6;
 
     Button boton7;
+
+    Button boton8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +74,17 @@ public class BoxeoPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), prueba_box.class);
+                startActivity(intent);
+            }
+        });
+
+        boton8 = findViewById(R.id.button3);
+
+
+        boton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapaBox.class);
                 startActivity(intent);
             }
         });

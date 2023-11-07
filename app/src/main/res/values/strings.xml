@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SpaceSport1</string>
-</resources>
+        <string name="my_map_api_key">AIzaSyBxz8WiTc9BUOxNyTJpAEWfdSQH3gc7YHo</string>
+    </resources>
