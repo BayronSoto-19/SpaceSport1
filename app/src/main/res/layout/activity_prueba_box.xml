@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Resultado"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".prueba_box">
@@ -76,6 +77,7 @@
                     android:text="¿Cuántos asaltos tiene una pelea de boxeo profesional?" />
 
                 <RadioGroup
+                    android:id="@+id/radiogroup1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -92,16 +94,17 @@
                         android:text="10" />
 
                     <RadioButton
-                        android:id="@+id/rb12"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="12" />
-
-                    <RadioButton
                         android:id="@+id/rb6"
                         android:layout_width="match_parent"
                         android:layout_height="36dp"
                         android:text="6" />
+
+                    <RadioButton
+                        android:id="@+id/respuesta1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12" />
+
                 </RadioGroup>
 
             </LinearLayout>
@@ -118,6 +121,7 @@
                     android:text="¿Cuál es el límite de peso para la categoría de peso pesado en el boxeo?" />
 
                 <RadioGroup
+                    android:id="@+id/radiogroup2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -128,7 +132,7 @@
                         android:text="175 libras" />
 
                     <RadioButton
-                        android:id="@+id/rb200"
+                        android:id="@+id/respuesta2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="200 libras" />
@@ -161,8 +165,9 @@
                     android:text="¿Cómo se llama el golpe ilegal en el boxeo que implica golpear a un oponente en la parte posterior de la cabeza?" />
 
                 <RadioGroup
+                    android:id="@+id/radiogroup3"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent">
 
                     <RadioButton
                         android:id="@+id/rdHook"
@@ -177,7 +182,7 @@
                         android:text="Uppercut" />
 
                     <RadioButton
-                        android:id="@+id/rdRabbitPunch"
+                        android:id="@+id/respuesta3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Rabbit punch" />
@@ -187,29 +192,28 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cross" />
+
                 </RadioGroup>
 
             </LinearLayout>
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btnResultado"
+                android:layout_width="465dp"
+                android:layout_height="wrap_content"
+                android:text="Resultado" />
+
+            <Button
+                android:id="@+id/btnFinish"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:text="Finalizar" />
 
-                <Button
-                    android:id="@+id/btnResultado"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Resultado" />
-
-                <TextView
-                    android:id="@+id/textView37"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:visibility="visible" />
-
-            </LinearLayout>
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="379dp"
+                android:layout_height="49dp"
+                android:text="Puntuación: 0" />
 
         </LinearLayout>
     </ScrollView>

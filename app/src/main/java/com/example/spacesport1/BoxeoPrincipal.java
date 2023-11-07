@@ -81,7 +81,7 @@ public class BoxeoPrincipal extends AppCompatActivity {
         boton8 = findViewById(R.id.button3);
 
 
-        boton7.setOnClickListener(new View.OnClickListener() {
+        boton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MapaBox.class);

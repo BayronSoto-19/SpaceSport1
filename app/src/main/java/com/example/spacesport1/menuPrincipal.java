@@ -40,16 +40,7 @@ public class menuPrincipal extends AppCompatActivity {
             }
         });
 
-        boton4 = findViewById(R.id.BotonCapoheira);
 
-
-        boton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), CapoheiraPrincipal.class);
-                startActivity(intent);
-            }
-        });
 
     }
 }
