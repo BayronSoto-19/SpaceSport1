@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    //david puedes hacerme el login aqui en el main porfa
+    // y si puedes crearme uno que se pueda hacer el registro bro porfa
     Button boton;
 
     @Override
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), menuPrincipal.class);
                 startActivity(intent);
             }
+
         });
 
     }
